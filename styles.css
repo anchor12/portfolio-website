@@ -1,0 +1,45 @@
+
+#top-nav {
+    background-color: white;
+    border-bottom-color: lightgrey;
+    border-bottom-style: solid;
+    border-bottom-width:2px;
+    height: 10vh;
+    
+}
+
+#left-panel {
+width: 10%;
+float:left;
+height: 100%;
+}
+
+#name {
+    background-color: teal;
+    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size:2.2em;
+    font-weight: bold;
+    width: 25%;
+    float: left;
+    text-align: center;
+    height: 100%;
+    line-height: 10vh;
+
+    
+    
+}
+#links {
+    width: 65%;
+    text-align: right;
+    float: left;
+    height: 100%;
+    line-height: 10vh;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: lightgrey;
+    
+}
+
+#links>a {
+    color: rgb(153, 153, 153);
+}
