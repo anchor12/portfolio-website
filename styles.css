@@ -136,6 +136,23 @@ form>input {
     margin: 5%;
     
 }
-#img-container>img {
-    padding: 10px;
+
+
+.project-container {
+    float: left;
+    position:relative;
+    padding: 1%;
+}
+.tag {
+    float: left;
+    position: absolute;
+    left: 3.5%;
+    top: 70%;
+    background-color: teal;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    width: 93.5%
+
 }
