@@ -9,6 +9,7 @@ background-image: url('./assets/criss-cross.png');
     height: 10vh;
     
     
+    
 }
 
 #left-panel {
@@ -45,4 +46,21 @@ height: 100%;
 
 #links>a {
     color: rgb(153, 153, 153);
+}
+
+#content {
+    
+
+        width: 60%;
+        height: 70%;
+        top: 20%;
+        left: 20%;
+        right: 20%;
+        text-align: center;
+        position: fixed;
+        background-color: white;
+        border-color: lightgrey;
+        border-width: 2px;
+        border-style: solid;
+
 }
