@@ -75,3 +75,7 @@ height: 100%;
     margin-right: 5%;
     border-bottom: 2px solid lightgrey;
 }
+
+#about-me-photo {
+    margin-left: 5%;
+}
