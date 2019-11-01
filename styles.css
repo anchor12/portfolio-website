@@ -9,10 +9,6 @@ background-image: url('./assets/criss-cross.png');
     border-bottom-width:2px;
     height: 10vh;
     
-   
-    
-    
-    
 }
 
 
@@ -143,7 +139,7 @@ form>input {
     position:relative;
     padding: 1%;
 }
-.tag {
+.tag { /*portfolio title */
     float: left;
     position: absolute;
     left: 3.5%;
@@ -153,6 +149,12 @@ form>input {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1.5em;
     text-align: center;
-    width: 93.5%
+    width: 93.5%;
+    
 
+}
+
+.project-container:hover > .tag {  /*hover over portfolio image and project title text increases size*/
+    transition: all .2s ease-in-out;
+    transform: scale(1.1); 
 }
