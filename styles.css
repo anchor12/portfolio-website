@@ -1,10 +1,13 @@
-
+html {
+background-image: url('./assets/criss-cross.png');
+}
 #top-nav {
     background-color: white;
     border-bottom-color: lightgrey;
     border-bottom-style: solid;
     border-bottom-width:2px;
     height: 10vh;
+    
     
 }
 
