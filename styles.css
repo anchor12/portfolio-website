@@ -132,3 +132,10 @@ form>input {
 #message-input {
     height: 100px;
 }
+#img-container {
+    margin: 5%;
+    
+}
+#img-container>img {
+    padding: 10px;
+}
