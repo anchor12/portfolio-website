@@ -1,4 +1,5 @@
 html {
+    
 background-image: url('./assets/criss-cross.png');
 
 }
@@ -7,14 +8,16 @@ background-image: url('./assets/criss-cross.png');
     border-bottom-color: lightgrey;
     border-bottom-style: solid;
     border-bottom-width:2px;
-    height: 10vh;
+    height: 70px;
+    white-space: nowrap;
+    
     
 }
 
 
 #left-panel {
 width: 10%;
-float:left;
+ float:left; 
 height: 100%;
 }
 
@@ -24,11 +27,13 @@ height: 100%;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size:2.2em;
     font-weight: bold;
-    min-width: 25%;
-    float: left;
-    text-align: center;
+    width: 25%;
+    
+   float: left; 
+   text-align: center;
     height: 100%;
-    line-height: 10vh;
+    line-height: 10vh; 
+    
 
     
     
@@ -36,35 +41,36 @@ height: 100%;
 #links {
     width: 65%;
     text-align: right;
-    float: left;
+    float: right;  /* probably remove this float */
     
-    height: 100%;
-    line-height: 10vh;
+    
+    line-height: 10vh; 
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: lightgrey;
-    
+    padding-top: 5px;
 }
 
 #links>a {
     color: rgb(153, 153, 153);
 }
-
+#section {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 60px;
+    overflow: auto;
+    clear: both;
+}
 #content {
     
 
+       
         width: 60%;
-        min-height: 65%;
-        
-        
-        top: 20%;
-        left: 20%;
-        right: 20%;
-        
         position: fixed;
         background-color: white;
         border-color: lightgrey;
         border-width: 2px;
         border-style: solid;
+        overflow: auto;
     
         
 
