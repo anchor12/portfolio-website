@@ -127,6 +127,7 @@ form {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: grey;
     
+    
 }
 form>input {
     width: 100%;
@@ -135,7 +136,8 @@ form>input {
 }
 
 #message-input {
-    height: 100px;
+    padding-bottom: 100px; /*fixes centrally aligned text*/
+   
 }
 #img-container {
     margin: 5%;
