@@ -57,20 +57,21 @@ height: 100%;
     margin-left: 20vw;
     margin-right: 20vw;
     margin-top: 60px;
-    overflow: auto;
-    clear: both;
+   
+   
 }
 #content {
     
 
        
-        width: 60%;
-        position: fixed;
+        width: 60vw;
+       
         background-color: white;
         border-color: lightgrey;
         border-width: 2px;
         border-style: solid;
-        overflow: auto;
+        
+        
     
         
 
@@ -98,7 +99,7 @@ p {
     margin-left: 5%;
     line-height: 2;
     margin-right: 5%;
-    min-height: 65%;
+    
 
  
 }
@@ -117,6 +118,7 @@ p {
   border-top: 5px solid teal;
    
 }
+
 
 form {
     margin-left: 5%;
