@@ -1,0 +1,34 @@
+#img-container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-container {
+    
+    position:relative;
+    padding: 10px;
+    
+    
+}
+.tag { /*portfolio title */
+    
+    position: absolute;
+    
+    top: 135px;
+    background-color: teal;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    width: 214px;
+    
+
+}
+
+.project-container:hover > .tag {  /*hover over portfolio image and project title text increases size*/
+    transition: all .2s ease-in-out;
+    transform: scale(1.1); 
+}
+
