@@ -39,10 +39,10 @@ height: 100%;
     
 }
 #links {
-    width: 65%;
+    width: 64%;
     text-align: right;
     float: right;  /* probably remove this float */
-    
+   padding-right: 1%;
     
     
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
