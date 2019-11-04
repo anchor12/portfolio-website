@@ -159,25 +159,29 @@ textarea {
 
 #img-container {
     margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project-container {
     
     position:relative;
     padding: 10px;
-    display: inline-flex;
+    
+    
 }
 .tag { /*portfolio title */
     
     position: absolute;
-    left: 8px;
+    
     top: 135px;
     background-color: teal;
     color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1.5em;
     text-align: center;
-    width: 215px;
+    width: 214px;
     
 
 }
