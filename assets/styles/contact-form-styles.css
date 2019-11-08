@@ -16,14 +16,14 @@ textarea {
     padding-bottom: 100px; /*fixes centrally aligned text*/
     width: 100%;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: grey;
+    color: #777777;
 }
 
 #submit-input {
     width: 100px;
     height: 35px;
     margin-bottom: 10px;
-    background-color: teal;
+    background-color:#4aaaa5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1.1em;
     color: white;
